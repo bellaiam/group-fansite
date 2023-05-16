@@ -1,13 +1,34 @@
 # Group Fansite
 
+# Coworking Agreement
+
+## Accessibility Needs
+Need to sit down and do it.
+
+## Collaboration vs. individual work expectations
+Driver and navigator work style.
+
+## Learning Style
+Looking stuff up and communicating changes to each other.
+
+## Preferred Feedback Style
+Verbal and written.
+
+## One Team Communication Skill to Improve
+Patience and explaining choices better.
+
+## Signatures
+Bella Aminov and Sage Choi
+Date: 5-16-2023
+
 ## Introduction
 
-When first starting out, it is common for developers to create a small website to show off their web-dev skills and document their interests. 
+When first starting out, it is common for developers to create a small website to show off their web-dev skills and document their interests.
 
 We will use HTML & CSS to create a static site whose content is a fansite about something your group is passionate about. Your group fansite should contain a home page with some introductory information about your chosen topic, a fun facts page about your topic, and a gallery showcasing pictures about your topic.
 
 ### Sample Site
-View a simple sample website [here](https://adaanswers.github.io/group-fansite-example/index.html). 
+View a simple sample website [here](https://adaanswers.github.io/group-fansite-example/index.html).
 
 ## Learning Goals:
 - Practice creating semantic HTML
@@ -28,9 +49,9 @@ This group fansite must have the following HTML files:
 
 - `facts.html` should include a series of fun facts or more detailed information about your topic.
 
-- `gallery.html` must include at least 3 images with descriptions and links to where the images came from if applicable. 
+- `gallery.html` must include at least 3 images with descriptions and links to where the images came from if applicable.
 
-Each group member should take responsibility for creating one HTML file. 
+Each group member should take responsibility for creating one HTML file.
 
 ### Layout
 
@@ -59,14 +80,14 @@ In this wave, work together to present the elements on the page as you see fit b
 * a grid container with a few grid items
 * a flexbox container with a few flex items
 
-Both of these containers do not need to be on the same page. Try using one for one page, and the other for another page! 
+Both of these containers do not need to be on the same page. Try using one for one page, and the other for another page!
 
 <details>
 <summary>If you need some inspiration, here are two common layouts you can replicate</summary>
 
-![Group Fansite Wireframe Example 1](./assets/group-fansite-wireframe1.png)  
+![Group Fansite Wireframe Example 1](./assets/group-fansite-wireframe1.png)
 
-![Group Fansite Wireframe Example 2](./assets/group-fansite-wireframe2.png)  
+![Group Fansite Wireframe Example 2](./assets/group-fansite-wireframe2.png)
 </details>
 </br>
 
