@@ -1,0 +1,4 @@
+.game-links a:link, .game-links a:visited {
+    text-decoration: none;
+    color: rgb(235, 56, 80);
+}
