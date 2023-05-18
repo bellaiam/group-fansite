@@ -15,10 +15,14 @@
             <a class="navbar" href="/pages/gallery.html">Gallery</a>
             <a class="navbar" href="/pages/facts.html">Facts</a>
         </nav>
-        <header>
-            <h1>Top 5 Nintendo Games</h1>
-        </header>
+        <h1 id="space">About Nintendo</h1>
+        <p class="about">
+    Nintendo is a renowned Japanese video game company that has left an indelible mark on the gaming industry. Founded in 1889 as a playing card company, Nintendo transitioned into the realm of video games in the 1970s and has since become one of the most influential and successful game developers and console manufacturers in the world. Nintendo is known for its commitment to innovation, unique gameplay experiences, and beloved franchises that have captured the hearts of players across generations.
+        </p>
+        <h1 id="games">Top Nintendo Games</h1>
+        
         <main>
+            
             <ol class="game-links">
                 <li><a href="https://shorturl.at/FQSY9">Super Mario 64</a></li>
                 <li><a href="https://shorturl.at/dgux6">The Legend of Zelda: A Link to the Past</a></li>
@@ -26,6 +30,47 @@
                 <li><a href="https://shorturl.at/ABX45">The Legend of Zelda: Twilight Princess</a></li>
                 <li><a href="https://shorturl.at/vOWY1">The Legend of Zelda: Majora's Mask</a></li>
             </ol>
+                <section class="carousel" aria-label="Gallery">
+                    <ol class="carousel__viewport">
+                    <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                        <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                    </li>
+                    <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                    </li>
+                    <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                    </li>
+                    <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                    </li>
+                    </ol>
+                    <aside class="carousel__navigation">
+                    <ol class="carousel__navigation-list">
+                        <li class="carousel__navigation-item">
+                        <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                        <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                        <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                        <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                        </li>
+                    </ol>
+                    </aside>
+                </section>
+              
         </main>
 		<footer>
             &copy 2023 Bella A. & Sage C.
