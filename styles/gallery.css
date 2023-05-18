@@ -1,3 +1,30 @@
-.remove-bullets {
-    list-style-type: none;
+.container {
+    width: 1200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "MuseoSans-700";
+    src: url("../fonts/MuseoSans-700.otf");
+    font-family: "MuseoSans-300";
+    src: url("../fonts/MuseoSans-300.otf")
+}
+
+h1 {
+    font-family: "MuseoSans-700";
+}
+
+blockquote {
+    font-family: "MuseoSans-300";
+}
+
+main {
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    text-align: center;
 }
