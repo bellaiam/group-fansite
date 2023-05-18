@@ -34,13 +34,6 @@ main div {
     text-decoration: underline;
 }
 
-nav, h1 {
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-    padding: 10px;
-}
-
 body {
     margin-top: 200px;
     font-size: 20px;
