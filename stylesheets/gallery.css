@@ -1,0 +1,62 @@
+main {
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+main div {
+    margin: 1.5em;
+}
+
+.project {
+    background-color: goldenrod;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.info-links a:link, .info-links a:visited {
+    text-decoration: none;
+    color: initial;
+}
+
+.info-links a:hover {
+    text-decoration: underline;
+}
+
+nav, h1 {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+body {
+    margin-top: 200px;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    position:relative;
+    margin: 0 auto;
+}
+
+p {
+    width: 80%;
+}
+
+img {
+    padding: 15px;
+}
+
+h1 {
+    padding: 20px;
+}
