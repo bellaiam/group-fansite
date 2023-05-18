@@ -27,12 +27,6 @@ body {
     color: rgb(131, 215, 185);
 }
 
-#space {
-    padding: 100px;
-    color:aquamarine;
-    font-weight: 700;
-}
-
 .box {
     padding-bottom: 50px;
     text-align: right;
@@ -43,12 +37,6 @@ body {
     font-weight: bold;
     color: white;
     margin: 10px;
-}
-
-nav {
-    background-color: rgba(0, 0, 0, .6);
-    padding: 5px;
-    text-align: center;
 }
 
 footer {

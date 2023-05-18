@@ -1,6 +1,4 @@
 .navbar {
-    margin-top: 20px;
-    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: right;
@@ -9,12 +7,8 @@
     line-height: 1.5;
 }
 
-body{
+body {
     margin-top: 100px;
-}
-
-.navbar a {
-    margin-right: 1px;
 }
 
 * {
@@ -23,14 +17,20 @@ body{
     margin: 0;
 }
 
+h1 {
+    color: black;
+    padding: 2%;
+}
+
 nav {
     background: #050505;
-    padding: 0 50px;
     color: white;
     text-decoration: none;
-    width: 30vw;
     left: 0;
     right: 0;
+    text-align: center;
+    position: relative;
+    margin: auto;
 }
 
 .navbar, .navbar:visited {
@@ -57,7 +57,7 @@ body {
     font-family: "MuseoSans-100";
 }
 
-#space {
-    padding: 100px;
+.space {
+    padding: 2%;
     font-weight: 700;
 }
