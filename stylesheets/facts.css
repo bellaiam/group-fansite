@@ -7,6 +7,7 @@ nav, h1 {
 
 h1 {
     padding: 20px;
+    color: black;
 }
 
 body {
@@ -15,11 +16,13 @@ body {
     background-repeat: no-repeat;
     position: relative;
     margin: 0 auto;
+    color: aliceblue;
+    text-align: center;
 }
 
 main {
-    background-color:rgb(82, 122, 39);
     display: grid;
+    background-color: gainsboro;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -27,8 +30,12 @@ main div {
     margin: 1.5em;
 }
 
-.project {
-    background-color:rgb(226, 198, 159);
+.project-red {
+    background-color: crimson;
+}
+
+.project-blue {
+    background-color: cornflowerblue;
 }
 
 .container {
