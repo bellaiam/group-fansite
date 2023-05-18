@@ -210,7 +210,7 @@ ol, li {
     .carousel__snapper {
     animation-name: tonext, snap;
     animation-timing-function: ease;
-    animation-duration: 4s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
     }
 
@@ -260,8 +260,8 @@ ol, li {
 .carousel__prev,
 .carousel__next {
     position: absolute;
-    top: 0;
-    margin-top: 37.5%;
+    top: 50%;
+    margin-top: -2rem;
     width: 4rem;
     height: 4rem;
     transform: translateY(-50%);
