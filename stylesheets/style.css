@@ -39,7 +39,8 @@ nav {
 footer {
     color: gray;
     background-color: rgb(238, 237, 237);
-    padding: .75%
+    padding: .75%;
+    text-align: center;
 }
 
 @font-face {
